@@ -1,0 +1,7 @@
+{
+
+    "male": ["test_male1", "test_male2"],
+    "female": ["test_female1", "test_female2"],
+    "non-binary": ["test_genderless1"],
+    "last": ["testdata_last1", "testdata_last2"]
+}
