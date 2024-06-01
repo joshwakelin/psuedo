@@ -4,7 +4,6 @@ from manager import grab
 from output import display, tag, skittle
 
 from datetime import timedelta, datetime
-## from datetime import datetime
 
 import random
 from random import randrange
@@ -132,9 +131,7 @@ def main():
     print(display("City: ", "yellow") + locationBlob['city'])
     print(display("Google Maps Link: ", "yellow") + f"https://www.google.com/maps/place/{coords[0]},{coords[1]}")
     print(display("Luhn Number: ", "yellow") + luhn())
-    print("\n")
-    ##www.google.com/maps/place/43.1879889,-79.8105746
-    
+    print("\n")    
 
     
   
